@@ -4,9 +4,10 @@ body {
 }
 
 #container {
+    margin: 10vmax auto;
     background-color: white;
-    margin-top: 11rem;
-    margin-left: 29rem;
+    /* margin-top: 11rem; */
+    /* margin-left: 29rem; */
     border-radius: 10px;
     /* margin-right: 10rem; */
     height: 24rem;
@@ -23,7 +24,7 @@ body {
     height: 0.5rem;
     width: 0.5rem;
     border-radius: 50rem;
-    background-color: red;
+    background-color: #aaaaaa;
     margin-left: 0.5rem;
 }
 
@@ -31,7 +32,7 @@ body {
     height: 0.5rem;
     width: 0.5rem;
     border-radius: 50rem;
-    background-color: black;
+    background-color: #dedede;
     margin-left: 0.5rem;
 }
 
@@ -39,56 +40,66 @@ body {
     height: 0.5rem;
     width: 0.5rem;
     border-radius: 50rem;
-    background-color: black;
+    background-color: #dedede;
     margin-left: 0.5rem;
 }
 
 h1 {
     padding-top: 1.6rem;
     margin-left: 7rem;
+    padding-bottom: 2rem;
+    /* margin: 1.5rem 6rem; */
 }
 
-#cards {
+h2 {
+    margin-left: 2em;
+}
+
+#visa {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.img {
-    width: 7rem;
-    height: 4rem;
-    padding-right: 18rem;
-    margin-top: 1rem;
+    width: 25em;
+    /* justify-content: space-between; */
+    align-items: center;
+    border-top: 1px solid #999999;
     cursor: pointer;
-    border-top: 1px solid;
 }
 
-.img:hover {
+#visa:hover {
     background-color: whitesmoke;
-    border-radius: 10px;
-    /* padding-right: 15rem; */
-    transform: rotate(360deg);
-    /* transition: 2s; */
 }
 
-*/ #foot {
+.mark {
+    margin-left: 8rem;
+    width: 2rem;
+    height: 3rem;
+}
+
+.mark1 {
+    /* margin-left: 10rem; */
+    width: 2rem;
+    height: 3rem;
+}
+
+img {
+    height: 5rem;
+    width: 4rem;
+    padding-left: 1rem;
+}
+
+.p1 {
+    color: #999999;
+}
+
+#visa1 {
+    background-color: #598bdd;
     display: flex;
-}
-
-.arrow {
-    height: 1rem;
-    width: 1rem;
-    margin-left: 20rem;
-    /* background-color: red; */
-}
-
-button {
-    padding-right: 22.2rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.3rem;
+    width: 25em;
+    /* justify-content: space-between; */
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid #999999;
     border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    background-color: royalblue;
+    border-bottom-right-radius: 10px;
+    color: wheat;
     cursor: pointer;
-    color: white;
 }
