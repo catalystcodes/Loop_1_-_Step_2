@@ -65,7 +65,9 @@ h2 {
 }
 
 #visa:hover {
-    background-color: whitesmoke;
+    background-color: #dedede;
+    transition: 2s;
+    /* transform: rotate(360deg); */
 }
 
 .mark {
@@ -100,6 +102,6 @@ img {
     border-top: 1px solid #999999;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 10px;
-    color: wheat;
+    color: white;
     cursor: pointer;
 }
