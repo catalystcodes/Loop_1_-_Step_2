@@ -2,3 +2,48 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     background-image: url(../media/background.jpg);
 }
+
+#container {
+    background-color: white;
+    margin-top: 11rem;
+    margin-left: 29rem;
+    border-radius: 10px;
+    /* margin-right: 10rem; */
+    height: 27rem;
+    width: 25rem;
+}
+
+#circle {
+    display: flex;
+    margin-left: 10rem;
+    padding-top: 1rem;
+}
+
+.circle1 {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50rem;
+    background-color: red;
+    margin-left: 0.5rem;
+}
+
+.circle2 {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50rem;
+    background-color: black;
+    margin-left: 0.5rem;
+}
+
+.circle3 {
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 50rem;
+    background-color: black;
+    margin-left: 0.5rem;
+}
+
+h1 {
+    padding-top: 1.6rem;
+    margin-left: 7rem;
+}
